@@ -12,7 +12,7 @@ The tool also supports exporting analysis results to CSV files and saving charts
 
 The project uses the [Online Retail dataset from the UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
 
-The dataset contains transactions from a UK-based online retailer between December 2010 and December 2011.
+The dataset contains 541,909 transaction records from a UK-based online retailer between December 2010 and December 2011.
 
 It includes information such as:
 - Invoice numbers
@@ -48,30 +48,6 @@ The tool provides the following analyses:
 
 ### Data visualisation
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="./screenshots/Top%20Countries%20by%20Sales%20Revenue.png" width="3000">
-      <br>Top Countries by Sales Revenue
-    </td>
-    <td align="center">
-      <img src="./screenshots/Top%20Customers%20by%20Sales%20Revenue.png" width="3000">
-      <br>Top Customers by Sales Revenue
-    </td>
-</table>
-
-<table>
-    <td align="center">
-      <img src="./screenshots/Top%20Products%20by%20Sales%20Revenue.png" width="3000">
-      <br>Top Products by Sales Revenue
-    </td>
-    <td align="center">
-      <img src="./screenshots/monthly_revenue.png" width="3000">
-      <br>Monthly Revenue
-    </td>
-  </tr>
-</table>
-
 The project generates four charts using Matplotlib:
 
 - Monthly sales revenue
@@ -79,11 +55,42 @@ The project generates four charts using Matplotlib:
 - Top products by revenue
 - Top customers by revenue
 
-Charts can be saved as high-resolution PNG images.
+Charts can be displayed through the interactive menu and saved as high-resolution PNG images.
+
+#### Chart examples
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Top%20Countries%20by%20Sales%20Revenue.png" width="450">
+      <br>**Top Countries by Sales Revenue**
+    </td>
+    <td align="center">
+      <img src="./screenshots/Top%20Customers%20by%20Sales%20Revenue.png" width="450">
+      <br>**Top Customers by Sales Revenue**
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Top%20Products%20by%20Sales%20Revenue.png" width="450">
+      <br>**Top Products by Sales Revenue**
+    </td>
+    <td align="center">
+      <img src="./screenshots/monthly_revenue.png" width="450">
+      <br>**Monthly Revenue**
+    </td>
+  </tr>
+</table>
 
 ### Data export
 
 Analysis results can be exported as CSV files for further examination or use in spreadsheet applications.
+
+The project currently supports exporting:
+- Top products by revenue
+- Top customers by revenue
+- Monthly revenue
+- Revenue by country
 
 ## Technologies Used
 
@@ -96,12 +103,22 @@ Analysis results can be exported as CSV files for further examination or use in 
 ## Project Structure
 
 ```text
-CSV-Data-Analysis-Tool/
+CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook/
 ├── data/
+│   └── README.md
 ├── charts/
+│   ├── monthly_revenue.png
+│   ├── revenue_by_country.png
+│   ├── top_products_by_revenue.png
+│   └── top_customers_by_revenue.png
 ├── exports/
+│   ├── monthly_revenue.csv
+│   ├── revenue_by_country.csv
+│   ├── top_products_by_revenue.csv
+│   └── top_customers_by_revenue.csv
 ├── screenshots/
-├── src/
+├── notebooks/
+│   └── Online_Retail_Analysis.ipynb
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -111,9 +128,11 @@ CSV-Data-Analysis-Tool/
 
 ### 1. Clone the repository
 
+Replace the placeholder with your GitHub repository URL.
+
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd CSV-Data-Analysis-Tool
+git clone https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
+cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook
 ```
 
 ### 2. Install dependencies
@@ -124,15 +143,19 @@ pip install -r requirements.txt
 
 ### 3. Download the dataset
 
-Download the Online Retail dataset from the UCI Machine Learning Repository and place the Excel file in the project's data folder.
+Download the Online Retail dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
 
-### 4. Run the application
+Place the downloaded `Online Retail.xlsx` file in the project's `data/` folder.
 
-Run the Python program from the project directory.
+### 4. Open the Jupyter Notebook
+
+Start Jupyter Notebook:
 
 ```bash
-python src/main.py
+jupyter notebook
 ```
+
+Open `notebooks/Online_Retail_Analysis.ipynb` and run the cells in order.
 
 Follow the interactive menu to select an analysis, display a chart or export results.
 
