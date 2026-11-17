@@ -100,30 +100,6 @@ The project currently supports exporting:
 - **OpenPyXL** – Reading Excel files
 - **Jupyter Notebook** – Development and testing environment
 
-## Project Structure
-
-```text
-CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook/
-├── data/
-│   └── README.md
-├── charts/
-│   ├── monthly_revenue.png
-│   ├── revenue_by_country.png
-│   ├── top_products_by_revenue.png
-│   └── top_customers_by_revenue.png
-├── exports/
-│   ├── monthly_revenue.csv
-│   ├── revenue_by_country.csv
-│   ├── top_products_by_revenue.csv
-│   └── top_customers_by_revenue.csv
-├── screenshots/
-├── notebooks/
-│   └── Online_Retail_Analysis.ipynb
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 ## Installation and Usage
 
 ### 1. Clone the repository
