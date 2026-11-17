@@ -104,11 +104,9 @@ The project currently supports exporting:
 
 ### 1. Clone the repository
 
-Replace the placeholder with your GitHub repository URL.
-
 ```bash
-git clone https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
-cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook
+git clone (https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
+cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook)
 ```
 
 ### 2. Install dependencies
