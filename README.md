@@ -58,6 +58,9 @@ The tool provides the following analyses:
       <img src="./screenshots/Top%20Customers%20by%20Sales%20Revenue.png" width="3000">
       <br>Top Customers by Sales Revenue
     </td>
+</table>
+
+<table>
     <td align="center">
       <img src="./screenshots/Top%20Products%20by%20Sales%20Revenue.png" width="3000">
       <br>Top Products by Sales Revenue
