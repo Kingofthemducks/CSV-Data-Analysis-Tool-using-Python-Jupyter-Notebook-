@@ -48,6 +48,27 @@ The tool provides the following analyses:
 
 ### Data visualisation
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/Top%20Countries%20by%20Sales%20Revenue.png" width="180">
+      <br>Google Pixel 7 Pro – Lock Screen
+    </td>
+    <td align="center">
+      <img src="./screenshots/Top%20Customers%20by%20Sales%20Revenue.png" width="180">
+      <br>Google Pixel 7 Pro – Home Screen
+    </td>
+    <td align="center">
+      <img src="./screenshots/Top%20Products%20by%20Sales%20Revenue.png" width="180">
+      <br>Google Pixel 7 Pro – Home Screen, Dark Mode
+    </td>
+    <td align="center">
+      <img src="./screenshots/monthly_revenue.png" width="180">
+      <br>Google Pixel 7 Pro – Medication Screen, Dark Mode
+    </td>
+  </tr>
+</table>
+
 The project generates four charts using Matplotlib:
 
 - Monthly sales revenue
