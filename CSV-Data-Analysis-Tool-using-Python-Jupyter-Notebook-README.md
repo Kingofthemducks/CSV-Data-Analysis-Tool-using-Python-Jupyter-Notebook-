@@ -105,7 +105,7 @@ The project currently supports exporting:
 ### 1. Clone the repository
 
 ```bash
-git clone [CSV Data Analysis Tool – GitHub Repository](https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-)
+git clone https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
 
 cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook
 ```
