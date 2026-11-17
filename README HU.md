@@ -104,15 +104,7 @@ A projekt jelenleg a következő eredmények exportálását támogatja:
 
 ### 1. A GitHub-tároló klónozása
 
-```bash
-git clone https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-.git
-```
-
-### 2. A projekt mappájának megnyitása
-
-```bash
-cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
-```
+https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
 
 ### 3. Az adatkészlet letöltése
 
@@ -123,10 +115,6 @@ Helyezd a letöltött `Online Retail.xlsx` fájlt a projekt mappájába, a `CSV 
 ### 4. A Jupyter Notebook megnyitása
 
 Indítsd el a Jupyter Notebookot:
-
-```bash
-jupyter notebook
-```
 
 Nyisd meg a `notebooks/CSV Data Analysis Tool.ipynb` fájlt, majd futtasd a cellákat sorrendben.
 
