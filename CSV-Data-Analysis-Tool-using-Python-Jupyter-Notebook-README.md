@@ -105,8 +105,8 @@ The project currently supports exporting:
 ### 1. Clone the repository
 
 ```bash
-git clone (https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
-cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook)
+git clone [Kingofthemducks - CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-](https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
+cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook) 
 ```
 
 ### 2. Install dependencies
