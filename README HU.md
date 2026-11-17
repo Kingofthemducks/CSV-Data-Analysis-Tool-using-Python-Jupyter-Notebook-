@@ -116,7 +116,7 @@ Helyezd a letöltött `Online Retail.xlsx` fájlt a projekt mappájába, a `CSV 
 
 Indítsd el a Jupyter Notebookot:
 
-Nyisd meg a `notebooks/CSV Data Analysis Tool.ipynb` fájlt, majd futtasd a cellákat sorrendben.
+Nyisd meg a `CSV Data Analysis Tool.ipynb` fájlt, majd futtasd a cellákat sorrendben.
 
 ## Bemutatott készségek
 
