@@ -51,19 +51,19 @@ The tool provides the following analyses:
 <table>
   <tr>
     <td align="center">
-      <img src="./screenshots/Top%20Countries%20by%20Sales%20Revenue.png" width="400">
+      <img src="./screenshots/Top%20Countries%20by%20Sales%20Revenue.png" width="1000">
       <br>Top Countries by Sales Revenue
     </td>
     <td align="center">
-      <img src="./screenshots/Top%20Customers%20by%20Sales%20Revenue.png" width="400">
+      <img src="./screenshots/Top%20Customers%20by%20Sales%20Revenue.png" width="1000">
       <br>Top Customers by Sales Revenue
     </td>
     <td align="center">
-      <img src="./screenshots/Top%20Products%20by%20Sales%20Revenue.png" width="400">
+      <img src="./screenshots/Top%20Products%20by%20Sales%20Revenue.png" width="1000">
       <br>Top Products by Sales Revenue
     </td>
     <td align="center">
-      <img src="./screenshots/monthly_revenue.png" width="400">
+      <img src="./screenshots/monthly_revenue.png" width="1000">
       <br>Monthly Revenue
     </td>
   </tr>
