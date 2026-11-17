@@ -104,35 +104,19 @@ The project currently supports exporting:
 
 ### 1. Clone the repository
 
-```bash
-git clone https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
-
-cd CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
+https://github.com/Kingofthemducks/CSV-Data-Analysis-Tool-using-Python-Jupyter-Notebook-
 
 ### 3. Download the dataset
 
 Download the Online Retail dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
 
-Place the downloaded `Online Retail.xlsx` file in the project's `data/` folder.
+Place the downloaded `Online Retail.xlsx` file in the project's folder next to CSV Data Analysis Tool.ipynb.
 
 ### 4. Open the Jupyter Notebook
 
 Start Jupyter Notebook:
 
-```bash
-jupyter notebook
-```
-
-Open `notebooks/Online_Retail_Analysis.ipynb` and run the cells in order.
-
-Follow the interactive menu to select an analysis, display a chart or export results.
+Open `notebooks/CSV Data Analysis Tool.ipynb` and run the cells in order. 
 
 ## Skills Demonstrated
 
